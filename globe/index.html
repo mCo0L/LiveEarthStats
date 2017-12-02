@@ -151,13 +151,13 @@
   <div id="container"></div>
 
   <div id="currentInfo">
-    <span id="year1990" class="year">1990</span>
-    <span id="year1995" class="year">1995</span>
-    <span id="year2000" class="year">2000</span>
+    <span id="year1990" class="year"></span>
+    <span id="year1995" class="year"></span>
+    <span id="year2000" class="year"></span>
   </div>
 
   <div id="title">
-    World Population
+    World Polution
   </div>
   <div class="wrap">
    <div class="search">
@@ -210,7 +210,7 @@
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '/globe/population909500.json', true);
+      xhr.open('GET', '/globe/polution909500.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
