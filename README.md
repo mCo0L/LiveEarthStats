@@ -1,0 +1,2 @@
+# LiveEarthStats
+LHD Hackathon project
